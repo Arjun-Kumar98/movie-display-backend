@@ -1,5 +1,3 @@
-// src/movies/movies.service.ts
-
 import { Injectable } from '@nestjs/common';
 import { PrismaService } from '../prisma/prisma.service';
 import { uploadToS3 } from '../utils/s3.helper';
